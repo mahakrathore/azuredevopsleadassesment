@@ -22,4 +22,3 @@ output "location" {
   description = "The Azure region where resources are deployed"
   value       = var.location
 }
-
