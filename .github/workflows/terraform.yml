@@ -3,11 +3,9 @@ name: Terraform CI/CD with Azure Final
 on:
   push:
     branches:
-      - "new_code"
       - "master"
   pull_request:
     branches:
-      - "new_code"
       - "master"
   workflow_dispatch:
 
